@@ -1,17 +1,17 @@
 def create_an_empty_array
-  
+  array = Arrar.new()
 end
 
 def create_an_array
-  
+  array = []
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.push
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array << element 
 end
 
 def remove_element_from_end_of_array(array)
